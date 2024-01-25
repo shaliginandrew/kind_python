@@ -1,2 +1,9 @@
+#01
 d1, d2, d3, d4, d5 = map(int, input().split())
 print(min(d1, d2, d3, d4, d5))
+
+#02
+import math
+n, m = map(int, input().split())
+sum = n + m
+print(math.ceil(sum/20))
