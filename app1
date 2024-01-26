@@ -7,3 +7,43 @@ import math
 n, m = map(int, input().split())
 sum = n + m
 print(math.ceil(sum/20))
+
+#03
+print("Hello", end=' ')
+print("World!")
+
+#04
+x = 5.76
+y = -8
+print("Координаты точки: x = ", x, "; y = ", y)
+
+#05
+x = 5.76
+y = -8
+print("Координаты точки: x = ", x, "; y = ", y)
+print(f"Координаты точки: x = {x}; y = {y}")
+
+#06
+print(4 > 2)
+
+#07
+not, and, or
+
+#08
+s = "hello python"
+print(s[1])
+
+#09
+d = "12"
+print(d.rjust(30, '0'))
+
+#10
+digs = "1, 2,3, 4,5,6"
+d = digs.replace(" ", "").split(",")
+", ".join(d)
+print(d)
+
+#11
+fio = "Иванов Иван Иванович"
+fio2 = ",".join(fio.split())
+print(fio2)
