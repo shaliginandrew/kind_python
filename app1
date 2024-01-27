@@ -52,3 +52,18 @@ print(d)
 fio = "Иванов Иван Иванович"
 fio2 = ",".join(fio.split())
 print(fio2)
+
+#12
+path = "D:\\Python\\Projects\\stepik\\tex1.py"
+print(path)
+
+#13
+age = 18
+name = "Сергей"
+print("Меня зовут "+name+", мне "+str(age)+" и я люблю язык Python.")
+
+#14
+age = 18
+name = "Сергей"
+print("Меня зовут "+name+", мне "+str(age)+" и я люблю язык Python.")
+print(f"Меня зовут {name.upper()}, мне {age*2} и я люблю язык Python.")
